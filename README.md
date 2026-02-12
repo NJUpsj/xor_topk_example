@@ -17,7 +17,7 @@ This example demonstrates how two sorted sequences $A$ and $B$ are merged into a
 | **6** | Concatenate | $S = C \Vert E$ | **$S = (9,8,7,6)$** |
 
 ### Key Insight: How Step 4 Works
-In Step 4, we recover the smaller half of the top-$k$ elements without using comparators. For example, for $e_1$:
+In Step 4, we recover the smaller half of the top-$k$ elements without using comparators. For example, for $c_1$ and $e_1$:
 - $c_1 = \max(d_1, d_3) = \max(9, 7) = 9$
 - $e_1 = \min(d_1, d_3) = \text{XOR3}(9, 9, 7) = 7$
 
